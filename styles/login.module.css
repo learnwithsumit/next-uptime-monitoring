@@ -1,0 +1,18 @@
+.formTitle {
+  margin-top: 25px;
+}
+
+.login {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.checkbox {
+  margin: 15px 0;
+}
+
+.padder {
+  padding: 0 20px;
+}

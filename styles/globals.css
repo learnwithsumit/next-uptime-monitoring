@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #e5e5e5;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #3139e4;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input,
+select {
+  padding: 15px 25px;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline-color: #313ae474;
+}
+
+button {
+  font-weight: 600;
+  font-size: 15px;
+  color: #696969;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  background: #3139e4;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.secondary-btn {
+  background: #3ec84b;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 15px;
+  color: #333333;
+}
+
+.danger-btn {
+  background: #c90f0f;
+  border-radius: 4px;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.cards .card {
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #000000;
+}
+
+.card {
+  padding: 50px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: #000000;
+}
+
+.show {
+  display: block !important;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  background: #f5f6fa;
+  border-radius: 13px;
+  padding: 15px;
+}
+
+thead tr th {
+  padding: 15px;
+}
+
+tbody tr td {
+  padding: 5px 0;
+  text-align: center;
+}
+
+p.success {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
+p.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}

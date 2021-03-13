@@ -1,0 +1,23 @@
+td.link {
+  font-size: 12px;
+}
+
+.editBtn {
+  background: #3cac32 !important;
+}
+
+.editBtn a {
+  color: white;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.textDanger {
+  background: #e2232e;
+}

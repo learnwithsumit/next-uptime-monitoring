@@ -1,0 +1,23 @@
+.status,
+.cards {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.status {
+  gap: 90px;
+}
+
+.cards {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .status {
+    grid-template-columns: 1fr;
+  }
+}

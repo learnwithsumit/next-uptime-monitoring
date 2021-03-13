@@ -1,0 +1,18 @@
+.manual {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.cards {
+  margin-top: 50px;
+  display: grid;
+  gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

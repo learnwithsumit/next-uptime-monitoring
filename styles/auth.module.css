@@ -1,0 +1,40 @@
+.loginRegistration {
+  height: calc(100vh - 90px);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.padder {
+  padding: 0 20px;
+}
+
+.tabToggler {
+  display: grid;
+  background: #f1f1f1;
+  border-radius: 4px;
+  padding: 4px;
+  grid-template-columns: 1fr 1fr;
+}
+
+button.big {
+  border-radius: 4px;
+  border: 0;
+  padding: 10px;
+}
+
+.active {
+  background: #3139e4;
+  color: #ffffff;
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .loginRegistration {
+    grid-template-columns: 1fr;
+  }
+}

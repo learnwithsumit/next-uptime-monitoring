@@ -1,0 +1,14 @@
+i.upIcon {
+  background: #3ec84b;
+}
+
+i.downIcon {
+  background: #e2232e;
+}
+
+.icon {
+  padding: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}

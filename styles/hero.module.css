@@ -1,0 +1,21 @@
+.hero {
+  text-align: center;
+}
+
+.pseudobg {
+  text-align: center;
+  background-color: #fff;
+  height: 100vh;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .pseudobg {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.monitoring {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 50px;
+}
